@@ -1,0 +1,116 @@
+* {
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+html,
+body {
+    padding: 0;
+    margin: auto;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 15px;
+    background-color: white;
+
+}
+
+.neck {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 25px 25px 25px;
+    width: 400px;
+    height: 1000px;
+    border: none;
+}
+
+.headstock {
+    height: 50px;
+    background-color: rgb(102, 93, 93);
+    margin: 0 20px 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nut {
+    margin: 0 20px 0 20px;
+    height: 20px;
+    background-color: rgb(215, 210, 110);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.fretboard {
+    margin: 0 20px 0 20px;
+    height: 100%;
+    background-color: rgb(37, 34, 25);
+    display: flex;
+    flex-direction: column;
+}
+
+.fret {
+    height: 70px;
+    width: 100%;
+    border-bottom: 3px solid gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.dot {
+    background-image: url("dot.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.doubleDot {
+    background-image: url("doubleDot.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.stringLE {
+    width: 10px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.stringA {
+    width: 9px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.stringD {
+    width: 8px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.stringG {
+    width: 7px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.stringB {
+    width: 5px;
+    bbackground: rgb(255, 255, 255);
+    background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.stringHE {
+    width: 3px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
